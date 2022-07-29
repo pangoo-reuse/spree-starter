@@ -79,6 +79,8 @@ gem 'spree_gateway'
 gem 'spree_auth_devise'
 gem 'spree_i18n', '>= 5.0'
 gem 'spree_dev_tools', require: false, group: %w[test development]
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
+gem 'spree_social', github: 'spree-contrib/spree_social'
 
 # Sentry Client
 gem 'sentry-raven'
